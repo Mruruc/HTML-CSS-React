@@ -1,0 +1,24 @@
+body{
+
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: whitesmoke;
+
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: bolder;
+  
+}
+
+
+#footer{
+background-color:mediumspringgreen;
+height:60px; width:400px;
+color: white;
+font-size: larger;
+font-family: 'Courier New', Courier, monospace;
+}
