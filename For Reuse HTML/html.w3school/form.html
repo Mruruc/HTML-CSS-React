@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Omer Uruc">
+        <meta name="description" content="User input in HTML">
+        <meta name="keywords" content="HTML,FORM">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>input</title>
+
+        <style>
+            body{
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>User input</h1>
+        <h2 style="color: aqua;">Form</h3>
+            <h4 style="color: lime;">Text Fields</h4>
+
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="FirstName"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+        </form>
+
+        <h4 style="color: lime">Radio Button:</h4>
+        <p>Choose your favorite Web language:</p>
+        <form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="Javascript " name="fav_language" value="Javascript">
+            <label for="Javascript">Javascript</label>
+        </form>
+
+        <h4 style="color:lime">Checkboxes:</h4>
+        <form>
+            <input type="checkbox" id="vehicle1" name="vehicle" value="Bike">
+            <label for="vehicle1">I have bike</label> <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">I have a boat.</label>
+        </form>
+    
+        <h4 style="color:lime">The Submit Button</h4>
+        <form action="a.sql">
+            <input type="submit" value="Send" <!--value="Submit"-->
+        </form>
+
+        <h4 style="color:lime">The Button type</h4>
+        <form>
+            <input type="button" onclick="alert('Fuck you world')" value="Click me!">
+        </form>
+
+        <h4 style="color:lime">The Password type</h4>
+        <form>
+            <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd" placeholder="Password">
+        </form>
+        <h4 style="color:lime">The Resset Button:</h4>
+        <form>
+            <label for="name">First and Last Name:</label><br>
+            <input type="text" id="name" name="name" value="Omer Uruc"><br>
+            <input type="reset" value="Resset">
+        </form>
+
+        <h4 style="color:lime" >The type Color:</h4>
+        <form>
+             <label for="favcolor">Select your Favorite color:</label>
+             <input type="color" id="favcolor" name="favcolor"><br>
+             <input type="submit">
+        </form>
+
+        <h4 style="color:lime">The type Date:</h4>
+        <form>
+            <label for="Bdate">Birthday</label><br>
+            <input type="date" id="Bdate" name="Bdate" min="2000-12-31" max="2008-12-31">
+        </form>
+
+        <h4 style="color:lime">The type Datetime-local:</h4>
+        <form>
+            <label for="Birthdaytime">Birthdaytime(date-and-time)</label>
+            <input type="datetime-local" id="Birthdaytime" name="Birthdaytime">
+        </form>
+
+        <h4 style="color: red">Input Type Email:</h4>
+        <form>
+            <label for="email">Email Address:</label> <br>
+            <input type="email" id="email" name="email" placeholder="Email">
+        </form>
+
+        <hr>
+        <h4 style="color:aqua">Input Type Image:</h4>
+        <form >
+            <label for="image">Photo</label> <br>
+            <input type="image"  src="/img.png" alt="Submit" id="image" height="48" width="48">
+        </form>
+        <hr>
+
+        <h4 style="color: coral">Input Type File:</h4>
+        <form>
+            <label for="file">File:</label>
+            <input type="file" id="file" name="myfile">
+        </form>
+
+        <hr>
+        <h4 style="color:red">Input Type Hidden:</h4>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Name">
+            <input type="hidden" id="custId" name="custId" value="3401"> <br>
+            <input type="submit">
+        </form>
+        <hr>
+        <h4 style="color: aqua;">Input Type Month:</h4>
+        <form>
+            <label for="Bmonthandyear">Birthday (month and year):</label> <br>
+            <input type="month" id="Bmonthandyear" name="Bmonthandyear">
+        </form>
+        <hr>
+        <h4 style="color: aqua;">Input Type Number:</h4>
+        <form>
+            <label for="quantity">Salary Expection:</label> <br>
+            <input type="number" id="quantity" mame="quantity" min="5000" max="20000" step="500" value="7500">
+        </form>
+
+        <hr>
+        <h4 style="color: aqua;">Input Type Range:</h4>
+        <form>
+            <label for="vol">Volume</label> <br>
+            <input type="range" id="vol" name="vol" min="30" max="150" step="30">
+        </form>
+
+        <hr>
+        <h4 style="color: aqua;">Search:</h4>
+        <form>
+            <label for="gsearch">Googlee Search</label>
+            <input type="search" id="gsearch" name="gsearch">
+        </form>
+
+        <hr>
+        <h4 style="color:aqua">Input Type Tel</h4>
+        <form>
+            <label for="phone">Enter your Phone number:</label> <br>
+            <input type="tel" id="phone" name="phone">
+        </form>
+
+        <hr>
+        <h4 style="color:aqua">Input Type Time:</h4>
+        <form>
+            <label for="time">Time:</label> <br>
+            <input type="time" id="time" name="time">
+        </form>
+
+        <hr>
+        <h4 style="color:chartreuse">Input Type Url:</h4>
+        <form>
+            <label for="urladdress">Add Your Home page:</label>
+            <input type="url" id="urladdress" name="urladdress">
+        </form>
+
+        <hr>
+        <h4 style="color:chartreuse">Input Type Week:</h4>
+        <form>
+            <label for="week">Select a week:</label><br>
+            <input type="week" id="week" name="week">
+        </form>
+         
+        <hr>
+        <h4>The list attribute and datalist element:</h4>
+        <form>
+            <p>Choose your car:</p>
+            <input list="car">
+            <datalist id="car">
+                <option value="BMW">
+                <option value="Volvo">
+                <option value="Audi">
+                <option value="Tesla">  
+            </datalist>
+        </form>
+
+        <hr>
+        <h4>The Autocomplete attribute:</h4>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="name" autofocus><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="off">
+        </form>
+
+        <hr>
+        <h4>The <q>Select</q>Element:</h4>
+        <form action="student.sql" autocomplete="off" method="post">
+            <label for="cars">Choose brand of your Car:</label>
+            <select name="cars" id="cars" size="3" multiple>
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+                <option value="tesla"  selected>Tesla</option>
+            </select> <br>
+            <input type="submit" value="Send">
+        </form>
+
+        <hr>
+        <h4>The <q><strong>textarea</strong></q> Element:</h4>
+        <form>
+            <label for="message">Share with us Your Opinion:</label> <br>
+            <textarea name="message" id="message" cols="30" rows="10" style="border:1px solid red; padding: 10px;background-color:yellow;"> Write-down here:</textarea>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+
+        <h4 style="color:gold">The fieldset and legend element:</h4>
+        <form>
+           <fieldset>
+            <legend style="color: turquoise; font-size:large;">Candidate Information:</legend>
+            <label for="name">FirstName</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="lname">LastName:</label> <br>
+            <input type="text" id="lname" name="lname" disabled><br>
+            <br>
+            <input type="submit" value="Send">
+           </fieldset>
+        </form>
+
+        <h4>formenctype attribute</h4>
+        <form enctype="multipart/form-data">
+            <label for="id">ID:</label>
+            <input type="number" maxlength="11" min="0" max="9"> <br>
+            <br>
+            <input type="submit"> &nbsp;  &nbsp; &nbsp; &nbsp;
+            <input type="submit" formenctype="multipart/form-data" value="Encrypte And Send">
+        </form>
+
+
+
+        
+
+
+        
+
+
+
+
+
+
+        
+    </body>
+</html>
