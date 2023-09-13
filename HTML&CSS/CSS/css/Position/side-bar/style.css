@@ -1,0 +1,67 @@
+
+body{
+  height: 3000px;
+  padding-top: 60px;
+}
+
+.header{
+  background-color: aqua;
+  position: fixed;
+  height: 40px;
+  top: 10px;
+  left:0px;
+  right: 0px;
+}
+
+.main{
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 70px;
+}
+
+.side-bar{
+  background-color: blueviolet;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: fixed;
+  left:0px;
+  bottom: 0px;
+  top: 60px;
+  width: 60px;
+  
+}
+
+.exit-bar{
+  position: absolute;
+  background-color: rgb(194, 9, 9);
+  top: 0px;
+  right: 0px;
+}
+
+.div1{
+  background-color: rgb(42, 151, 165);
+  flex: 1;
+}
+.div2{
+  background-color: chartreuse;
+  flex: 1;
+}
+.div3{
+  background-color: cadetblue;
+  flex: 1;
+}
+.div4{
+  background-color: aquamarine;
+  flex: 1;
+}
+
+
+
+.content{
+  background-color: rgb(43, 226, 119);
+}

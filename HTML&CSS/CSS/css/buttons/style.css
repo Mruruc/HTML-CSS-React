@@ -1,0 +1,99 @@
+
+body{
+  background-color: whitesmoke;
+ 
+}
+
+.subscribe-btn{
+  background-color: rgb(198, 9, 9);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor:pointer;
+  margin-right: 8px;
+  box-shadow: 5px 5px 5px green;
+}
+
+.subscribe-btn:hover{
+  background-color: rgb(134, 5, 5);
+}
+.subscribe-btn:active{
+  background-color: green;
+}
+
+.join-btn{
+  background-color: white;
+  border-color: rgb(26, 29, 203);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(21, 107, 212);
+  height: 36px;
+  width: 62px;
+  cursor: pointer;
+  border-radius: 2px;
+ 
+
+}
+.join-btn:hover{
+  background-color: rgb(35, 107, 170);
+  color: white;
+  box-shadow: 10px 10px 10px red;
+ 
+}
+.join-btn:active{
+  opacity: 0.7;
+}
+.delet-btn{
+  background-color: rgb(198, 9, 9);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor:pointer;
+  margin-right: 8px;
+  transition: 50ms;
+}
+
+.delet-btn:hover{
+  background-color: rgb(134, 5, 5);
+  box-shadow: 10px 10px 10px red;
+}
+.delet-btn:active{
+  background-color: green;
+}
+
+.update-btn{
+  background-color: rgb(44, 117, 177);
+  color: white;
+  border: none;
+  height: 36;
+  width: 70px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 1s;
+  }
+
+  .update-btn:hover{
+    background-color: rgb(255, 0, 0);
+  }
+  .update-btn:active{
+    background-color: green;
+  }
+
+  /*Box Model*/
+  .style-div{
+    background-color: rgb(13, 236, 236);
+    margin-left: 20px;
+    margin-right: 150px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    padding-right: 50;
+
+  }

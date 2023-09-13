@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>User Informations</legend>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname"><br>
+            <input type="submit" value="Send">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Radio Buttons</legend>
+            <input type="radio" id="html">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="js">
+            <label for="js">JavaScript</label><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Checkboxes</legend>
+            <input type="checkbox" id="spring" disabled>
+            <label for="spring">Spring</label><br>
+            <input type="checkbox" id="node">
+            <label for="node">Node</label><br>
+            <input type="submit" value="Send">
+       </fieldset>
+
+       <fieldset>
+        <legend>Textarea</legend>
+        <label for="userIdea">Share More with Us:</label><br>
+       <textarea name="textare" id="userIdea" cols="30" rows="10" 
+       placeholder="Share more with us..."></textarea>
+       </fieldset>
+
+    </form>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

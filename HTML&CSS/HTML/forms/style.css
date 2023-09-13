@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    cursor:pointer;
+}
+
+fieldset{
+    margin-right:200px;
+}

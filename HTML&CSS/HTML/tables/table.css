@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.table,th,td{
+    border: 1px solid red;
+    padding: 15px;
+    border-spacing: 10px;
+}
+td{
+    border-radius:10px;
+    font-size: medium;
+    text-align: start;
+    -ms-grid-row-span: "1";
+}
+th{
+    width: 100px;
+    text-align: center;
+    column-span:"1";
+}

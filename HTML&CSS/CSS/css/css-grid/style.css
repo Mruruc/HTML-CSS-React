@@ -1,0 +1,28 @@
+
+
+
+.main-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 10px;
+}
+
+.div1{
+  background-color: aqua;
+}
+
+.div2{
+  background-color:purple;
+}
+
+.div3{
+  background-color: brown;
+}
+.div4{
+  background-color: blue;
+}
+
+.div5{
+  background-color: chartreuse;
+}

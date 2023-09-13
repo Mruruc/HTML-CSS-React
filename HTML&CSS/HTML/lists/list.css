@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.unorderedList{
+    list-style-type: square;  /*Sets the list item marker to a square*/
+}
+
+.orderedList{
+   list-style-type: upper-roman;
+}

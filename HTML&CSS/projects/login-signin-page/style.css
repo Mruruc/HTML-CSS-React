@@ -1,0 +1,38 @@
+body{
+  background-color: whitesmoke;
+  color: rgb(8, 8, 8);
+  font-size: medium;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  cursor:pointer;
+  text-align: center;
+  margin: 200px;
+}
+
+input{
+  border-radius: 5px;
+  border-color: rgb(232, 18, 18);
+}
+
+.submit-btn{
+  margin-top: 5px;
+  border: none;
+  background-color: rgb(16, 232, 16);
+  color: rgb(0, 0, 0);
+  font-size: smaller;
+  font-weight: bold;
+  width: 90;
+  height: 23px;
+}
+
+fieldset{
+  margin: 10px;
+}
+
+footer{
+  height: 100px;;
+  background-color: black;
+  margin-top: 100px;
+  border: 3px;
+  color: black;
+}

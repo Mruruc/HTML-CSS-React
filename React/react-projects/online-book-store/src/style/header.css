@@ -1,0 +1,29 @@
+
+.header{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.page-name{
+  flex: 1fr;
+  margin: 5px;
+  font-weight: bald;
+}
+.search-bar{
+  flex: 1fr;
+  margin-left: 600px;
+
+}
+
+.search-input{
+  text-align:left;
+  margin-top: 15px;
+  width: 500px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(255, 243, 227);
+}

@@ -1,0 +1,34 @@
+
+.main-div{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.div1{
+  background-color: lightblue;
+  flex:1;
+
+}
+.div2{
+  background-color: lightpink;
+  flex: 3;
+}
+
+.nav-bar{
+  margin-top: 50px;
+  border: solid;
+  background-color: aquamarine;
+
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+}
+
+.div3{
+  background-color: chartreuse;
+
+}
+.div4{
+  background-color: chocolate;
+}
